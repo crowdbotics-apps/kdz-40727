@@ -1,6 +1,6 @@
 import axios from "axios"
 const kdzAPI = axios.create({
-  baseURL: "https://kdz-40727-prod.herokuapp.com",
+  baseURL: "https://kdz-40727.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
